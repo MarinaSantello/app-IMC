@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IMC 2.0</string>
+    <string name="calculate">Caculadora</string>
+    <string name="bmi">IMC</string>
+    <string name="login">Autenticar</string>
+    <string name="your_email">Seu e-mail</string>
+    <string name="your_pass">Sua senha</string>
+    <string name="new_user">Criar conta</string>
+    <string name="logo_name">SENAI</string>
+</resources>

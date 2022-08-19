@@ -4,7 +4,7 @@
     <string name="bmi">BMI</string>
     <string name="login">Login</string>
     <string name="your_email">Your e-mail</string>
-    <string name="your_pass">Your ç</string>
+    <string name="your_pass">Your password</string>
     <string name="new_user">Sign up</string>
     <string name="logo_name">SENAI</string>
 
@@ -15,4 +15,10 @@
     <string name="new_weight">Weight:</string>
     <string name="new_height">Height:</string>
     <string name="registration_user">Create user</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_pass">Password</string>
+    <string name="register_acc">register account</string>
+    <string name="input_weight">Weight</string>
+    <string name="input_height">Height</string>
 </resources>

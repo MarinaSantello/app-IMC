@@ -70,7 +70,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/editTextPersonName"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -83,6 +83,7 @@
                 android:hint="@string/hint_name"
                 android:inputType="textPersonName"
                 android:padding="12dp"
+                android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="@+id/textView8"
@@ -97,11 +98,11 @@
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+                app:layout_constraintStart_toStartOf="@+id/editTextPersonName"
+                app:layout_constraintTop_toBottomOf="@+id/editTextPersonName" />
 
             <EditText
-                android:id="@+id/editTextTextEmailAddress4"
+                android:id="@+id/editTextPersonEmail"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
@@ -113,7 +114,8 @@
                 android:hint="@string/hint_email"
                 android:inputType="textEmailAddress"
                 android:padding="12dp"
-                app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/editTextPersonName"
                 app:layout_constraintStart_toStartOf="@+id/textView10"
                 app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -126,11 +128,11 @@
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress4"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress4" />
+                app:layout_constraintStart_toStartOf="@+id/editTextPersonEmail"
+                app:layout_constraintTop_toBottomOf="@+id/editTextPersonEmail" />
 
             <EditText
-                android:id="@+id/editTextTextPassword2"
+                android:id="@+id/editTextPersonPassword"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
@@ -142,7 +144,8 @@
                 android:hint="@string/hint_pass"
                 android:inputType="textPassword"
                 android:padding="12dp"
-                app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress4"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/editTextPersonEmail"
                 app:layout_constraintStart_toStartOf="@+id/textView11"
                 app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
@@ -155,8 +158,8 @@
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="@+id/editTextTextPassword2"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+                app:layout_constraintStart_toStartOf="@+id/editTextPersonPassword"
+                app:layout_constraintTop_toBottomOf="@+id/editTextPersonPassword" />
 
             <TextView
                 android:id="@+id/textView12"
@@ -166,11 +169,11 @@
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal"
+                app:layout_constraintStart_toStartOf="@+id/editNumberHeight"
                 app:layout_constraintTop_toTopOf="@+id/textView9" />
 
             <EditText
-                android:id="@+id/editTextNumberSigned"
+                android:id="@+id/editNumberWeight"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
@@ -184,14 +187,15 @@
                 android:hint="@string/input_weight"
                 android:inputType="numberSigned"
                 android:padding="12dp"
-                app:layout_constraintEnd_toStartOf="@+id/editTextNumberDecimal"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/editNumberHeight"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
             <EditText
-                android:id="@+id/editTextNumberDecimal"
+                android:id="@+id/editNumberHeight"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
@@ -204,13 +208,14 @@
                 android:hint="@string/input_height"
                 android:inputType="numberDecimal"
                 android:padding="12dp"
+                android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/editTextNumberSigned"
-                app:layout_constraintTop_toTopOf="@+id/editTextNumberSigned" />
+                app:layout_constraintStart_toEndOf="@+id/editNumberWeight"
+                app:layout_constraintTop_toTopOf="@+id/editNumberWeight" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/buttonSave"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
@@ -222,7 +227,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextNumberSigned" />
+                app:layout_constraintTop_toBottomOf="@+id/editNumberWeight" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

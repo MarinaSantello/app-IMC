@@ -21,4 +21,9 @@
     <string name="register_acc">register account</string>
     <string name="input_weight">Weight</string>
     <string name="input_height">Height</string>
+    
+    <string name="name_user">User Name</string>
+    <string name="email">email@do.usuario.com</string>
+    <string name="title">Let\'s calculate your body mass index now?</string>
+    <string name="question">This is your BMI result</string>
 </resources>

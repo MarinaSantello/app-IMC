@@ -8,4 +8,10 @@
     <string name="your_pass">Votre mot de passe</string>
     <string name="new_user">S\'inscrire</string>
     <string name="logo_name">SENAI</string>
+    <string name="level01">Sous poids.</string>
+    <string name="level02">Poids idéal.</string>
+    <string name="level03">Slightly overweight.</string>
+    <string name="level04">Obésité de grade I.</string>
+    <string name="level05">Obésité de grade II.</string>
+    <string name="level06">Obésité de grade III.</string>
 </resources>

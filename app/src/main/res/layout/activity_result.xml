@@ -68,7 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Ta fodido kk"
+        android:text="vish"
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="level01">Under weight.</string>
+    <string name="level02">Ideal weight.</string>
+    <string name="level03">Slightly overweight.</string>
+    <string name="level04">Grade I obesity.</string>
+    <string name="level05">Grade II obesity.</string>
+    <string name="level06">Grade III obesity.</string>
+</resources>

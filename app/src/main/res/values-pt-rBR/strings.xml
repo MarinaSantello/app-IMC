@@ -14,4 +14,22 @@
     <string name="level04">Obesidade grau I.</string>
     <string name="level05">Obesidade grau II.</string>
     <string name="level06">Obesidade grau III.</string>
+    <string name="new_registration">Registro de novo usuário</string>
+    <string name="name">Nome:</string>
+    <string name="new_email">E-mail:</string>
+    <string name="new_pass">Senha:</string>
+    <string name="new_weight">Peso:</string>
+    <string name="new_height">Altura:</string>
+    <string name="registration_user">Criar um novo usuário</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_name">Nome</string>
+    <string name="hint_pass">Senha</string>
+    <string name="register_acc">registrar conta</string>
+    <string name="input_weight">Peso</string>
+    <string name="input_height">Altura</string>
+    <string name="input_height2">Altura (opicional)</string>
+
+    <string name="title">Vamos calcular o seu índice de massa corporal?</string>
+    <string name="question">Esse é o resultado do seu IMC</string>
+
 </resources>
